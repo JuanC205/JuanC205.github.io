@@ -1,0 +1,99 @@
+.Teo {
+    font-size: 50px;
+    text-align: center;
+    color: chartreuse;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-image: url(images/ws_Purple_Outer_Space_&_Stars_2560x1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 75px;
+    background-color: darkgreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+.panspermiaimg {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 3000px;
+}
+
+.encuimg {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.reptosimg {
+    text-align: center;
+}
+
+.pans {
+    color: white;
+    text-align: justify;
+    margin: 50px 50px;
+}
+
+.encubrimiento {
+    color: white;
+    text-align: justify;
+    margin: 50px 50px;
+}
+
+.reptos {
+    color: white;
+    text-align: justify;
+    margin: 50px 50px;
+}
+
+.ft {
+    height: 100px;
+    background-color: darkgreen;
+    align-items: center;
+    padding: 10px;
+}

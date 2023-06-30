@@ -1,0 +1,199 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-image: url(images/ws_Purple_Outer_Space_&_Stars_2560x1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 75px;
+    background-color: darkgreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+.titulo {
+    color: lightblue;
+    font-family: Arial;
+    text-align: center;
+}
+
+.txt {
+    text-decoration: aqua;
+    color: white;
+    text-align: center;
+}
+
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.razas {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.Acon {
+    text-align: center;
+    color: white
+}
+
+.alien2 {
+    display: flex;
+    justify-content: center;
+}
+
+.alienmarciano {
+    display: flex;
+    justify-content: center;
+}
+
+.alienverde {
+    display: flex;
+    justify-content: center;
+}
+
+.ashtarimg {
+    display: flex;
+    justify-content: center;
+}
+
+.reptilianoimg {
+    display: flex;
+    justify-content: center;
+}
+
+.nordicosimg {
+    display: flex;
+    justify-content: center;
+}
+
+.seleimg {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.textogrises {
+    color: white;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+.textomarciano {
+    color: white;
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.contenedor2 {
+    display: flex;
+}
+
+.contenedor3 {
+    display: flex;
+}
+
+.contenedor4 {
+    display: flex;
+}
+
+.textohombrecilloverde {
+    color: white;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+.textonordicos {
+    color: white;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+.textoashtar {
+    color: white;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+.textorep {
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.selenitastexto {
+    color: white;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+.subt {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.cult {
+    color: white;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.volver {
+    color: gold;
+    font-size: 45px;
+
+}
+
+.ft {
+    height: 100px;
+    background-color: darkgreen;
+    align-items: center;
+    padding: 10px;
+}
